@@ -19,6 +19,14 @@ export const Cards = () => {
                 <div class="overviewcard__icon">Overview</div>
                 <div class="overviewcard__info">Card</div>
             </div>
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
         </div>
     )
 }
