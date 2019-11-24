@@ -1,13 +1,26 @@
 import React from 'react';
-import './App.css';
+
+//style
+import './components/styles/dashboard.css';
+
+//componentes
+import Aside from './components/aside';
+import Header from './components/Header';
+import Main from './components/Main';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
 
-        hola uwuw hey tuki tuki
-      </header>
+
+  return (
+
+    <div className="App">
+      <div class="grid-container">
+        <Header />
+        <Aside />
+        <Main />
+
+      </div>
     </div>
   );
 }
