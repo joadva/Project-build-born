@@ -73,9 +73,8 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
     padding: 20px;
-    height: 150px;
+    height: 260px;
     /* Force our height since we don't have actual content yet */
     background-color: #e3e4e6;
     color: slategray;

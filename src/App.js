@@ -4,7 +4,7 @@ import React from 'react';
 import './components/styles/dashboard.css';
 
 //componentes
-import Aside from './components/aside';
+import Aside from './components/Aside';
 import Header from './components/Header';
 import Main from './components/Main';
 
@@ -16,7 +16,7 @@ function App() {
 
     <div className="App">
       <div class="grid-container">
-        <Header />
+
         <Aside />
         <Main />
 
